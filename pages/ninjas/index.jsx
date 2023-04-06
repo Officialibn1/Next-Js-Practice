@@ -34,6 +34,7 @@ const Ninjas = ({ ninjas }) => {
                     <h3>{ninja.name}</h3>
                 </Link>
             ))}
+            
            
         </div>
     );
