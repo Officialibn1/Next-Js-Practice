@@ -1,0 +1,20 @@
+.container{
+    display: flex;
+    min-height: 15vh;
+    width: 100%;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: center;
+    background: #d8d8d8;
+}
+
+
+.footer{
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background: #d8d8d8;
+}
+

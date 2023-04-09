@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    padding: 30px 20px;
+    background: #050723;
+
+}
+
+.container ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 2em;
+}
+
+.container ul li a {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    font-size: 18px;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+}
+
+.container ul li a:hover {
+    border-bottom: 2px solid #fff;
+
+}
